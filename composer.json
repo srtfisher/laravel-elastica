@@ -1,25 +1,26 @@
 {
-    "name": "srtfisher/laravel-elastica",
-    "description": "Laravel 4 Service Provider for Elastica",
-    "authors": [
-        {
-          "name": "Sean Fisher",
-          "email": "hi@seanfisher.co"
-        }
-    ],
-    "require": {
-      "php": ">=5.4.0",
-      "ruflin/Elastica": "~1.3.4.0"
-    },
-    "require-dev": {
-      "orchestra/testbench": "~2.2.1"
-    },
-    "autoload": {
-        "psr-0": {
-          "Srtfisher\\LaravelElastica": "src/",
-          "Srtfisher\\LaravelElastica\\Test": "tests/"
-        }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+  "name": "srtfisher/laravel-elastica",
+  "description": "Laravel 4 Service Provider for Elastica",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sean Fisher",
+      "email": "hi@seanfisher.co"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "ruflin/Elastica": "~1.3.4.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "~2.2.1"
+  },
+  "autoload": {
+      "psr-0": {
+        "Srtfisher\\LaravelElastica": "src/",
+        "Srtfisher\\LaravelElastica\\Test": "tests/"
+      }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
