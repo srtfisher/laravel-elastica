@@ -5,17 +5,17 @@
  *
  * @link http://elastica.io/getting-started/installation.html
  */
-return array(
+return [
   // Default Elasticsearch Server
   'host' => 'localhost',
   'port' => '9200',
 
   /*
    Running a cluster:
-   
-  'servers' => array(
+
+  'servers' => [
         array('host' => 'localhost', 'port' => 9200),
         array('host' => 'localhost', 'port' => 9201)
-    )
+    ]
   */
-);
+];

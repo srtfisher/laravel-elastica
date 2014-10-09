@@ -38,7 +38,7 @@ class LaravelElasticaServiceProvider extends ServiceProvider {
 	{
 		$this->app->singleton('elastica', function()
 		{
-			return new Client(Config::get('elastica::config'));
+			return new Client(Config::get('laravel-elastica::config'));
 		});
 
 		// Shortcut so developers don't need to add an Alias in app/config/app.php
@@ -56,7 +56,7 @@ class LaravelElasticaServiceProvider extends ServiceProvider {
 	 */
 	public function provides()
 	{
-		return array('elastica');
+		return ['elastica'];
 	}
 
 }
