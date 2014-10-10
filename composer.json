@@ -2,6 +2,7 @@
   "name": "srtfisher/laravel-elastica",
   "description": "Laravel 4 Service Provider for Elastica",
   "license": "MIT",
+  "keywords": ["elasicsearch", "elasica", "laravel"],
   "authors": [
     {
       "name": "Sean Fisher",
