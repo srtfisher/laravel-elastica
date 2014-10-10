@@ -1,5 +1,7 @@
 Elastica for Laravel 4
 ===========================
+![Build Status](https://travis-ci.org/srtfisher/laravel-elastica.svg)
+
 This is a Laravel 4 Service Provider for the [Elastica](http://elastica.io/) Elasticsearch Client
 
 ## Installation
