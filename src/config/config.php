@@ -7,8 +7,8 @@
  */
 return [
   // Default Elasticsearch Server
-  'host' => 'localhost',
-  'port' => '9200',
+  'host' => '127.0.0.1',
+  'port' => 9200,
 
   /*
    Running a cluster:
