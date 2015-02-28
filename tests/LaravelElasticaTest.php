@@ -15,12 +15,12 @@ class LaravelElasticaTest extends TestCase {
     $this->assertInstanceOf('Elastica\Client', $elastica);
   }
 
-  protected function getPackageProviders()
+  protected function getPackageProviders($app = null)
   {
     return ['Srtfisher\LaravelElastica\LaravelElasticaServiceProvider'];
   }
 
-  protected function getPackageAliases()
+  protected function getPackageAliases($app = null)
   {
     return [
       'Es' => 'Srtfisher\LaravelElastica\LaravelElasticaFacade'
